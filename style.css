@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+ }
+.navbar{
+    font-size: larger;
+    z-index: 10;
+    background-color: black;
+    color: white;
+}
+li{
+    padding-left: 25px;
+}
+.carousel-item img{
+    width: 100%;
+    height: 100vh;
+}
+.carousel-caption {
+    margin-bottom: 14%;
+    z-index: 10;
+}
+.zone-img{
+    margin-left: 6vw;
+}
+.outs{
+    border:2px solid black;
+    background-color: bisque;
+}
+.ser-had{
+    font-weight: bold;
+   font-size:2rem;
+}
+.service-card{
+    display: flex;
+    justify-content:space-around;
+}
+.abt-p1{
+   color: white;
+   background-color: black;
+}
+.abt-had{
+  font-weight: bold;
+  color:royalblue;
+  margin-top: 4%;
+}
+.btn{
+    background-color:black;
+}
+.learn-btn{
+    margin-left: 30%;
+    margin-bottom: 2%;
+    background-color: yellow;
+    color:black;
+}
+.services{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.row .card-t{
+    margin-left: 20%;
+    margin-bottom: 2%;
+    margin-top: 1%;
+}
+.team-card{
+    background-image: url(img11.png);
+}
+.c-card{
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.feature{
+   color: white;
+}
+.projects{
+    background-image: url(img12.jpg);
+}
+.change{
+    display: flex;
+    justify-content:space-around;
+}
+.form-contact{
+    margin-right: 2%;
+}
+.form-contact>div{
+    margin-bottom: 10%;
+}
+.hello{
+    margin-top: 8%;
+}
+.map{
+    margin-top: 5%;
+}
+@media (max-width: 575.98px) { 
+    .service-card{
+        display: inline;
+    }
+    .row .card{
+        margin-left: 14%;
+      
+    }
+    .change{
+        display: inline;
+     
+    }
+    .form-contact{
+      background-color:rgb(158, 158, 6);
+    }
+    .map-responsive{
+        overflow:hidden;
+        padding-bottom:56.25%;
+        position:relative;
+        height:0;
+    }
+    .map-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+ }
